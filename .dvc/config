@@ -3,4 +3,3 @@
 ['remote "myremote"']
     url = s3://mlops-lab-ngwkhai/dvc
     region = us-east-1
-    profile = lab21

@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - 'data/**.dvc'
+      - '.dvc/config'
       - 'src/**.py'
       - 'params.yaml'
   workflow_dispatch:
