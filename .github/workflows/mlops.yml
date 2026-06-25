@@ -41,7 +41,7 @@ jobs:
   train:
     name: Train
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     outputs:
       accuracy: ${{ steps.read_metrics.outputs.accuracy }}
 
